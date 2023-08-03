@@ -1,0 +1,46 @@
+:root {
+    --backgroundColor: #FFA07A;
+    --fonts: #F5FFFA;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--backgroundColor);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    padding: 3rem;
+    color: var(--fonts);
+}
+
+section {
+    text-align: left ;
+    margin: 2rem;
+    margin-top: 12rem; /*modificar esto*/
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: var(--backgroundColor);
+    color: var(--fonts)
+  }
+  
